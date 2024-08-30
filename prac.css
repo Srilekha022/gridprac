@@ -1,0 +1,78 @@
+body{
+    margin-top: 40px;
+    margin-left: 254px;
+    margin-right: 300px;
+}
+.parent{
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: papayawhip;
+    gap: 10px;
+    padding: 2px 2px 30px 2px;
+}
+.child{
+    background-color: yellow;
+}
+.one{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    height: 250px;
+}
+.two{
+    grid-column: 4/6;
+    grid-row: 1/2;
+}
+.three{
+    grid-column: 4/6;
+}
+p, h1{
+    text-align: center;
+}
+
+.div1{
+    background-color: yellow;
+}
+.four, .five, .six, .seven, .eight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    background-color: papayawhip;
+    margin-top: 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+.grid img{
+    width: 100%;
+    height: auto;
+}
+.main{
+    background-color: papayawhip;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(151px, 1fr));
+    gap: 10px;
+    height: 550px;
+}
+.feature{
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 4px rgba(133, 130, 130, 0.5);
+    margin-top: 30px;
+    margin-left: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.tacco{
+    display: flex;
+    mix-blend-mode:multiply;
+}
+.pre{
+    position: relative;
+    left: 10px;
+}
